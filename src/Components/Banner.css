@@ -1,0 +1,49 @@
+.Banner{
+    height: 70vh;
+    position: relative;
+    background: url("https://www.hospitalitynet.org/picture/xxl_153096414.jpg?t=20190114104334");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.banner_info{
+    background-color: black;
+    padding-top: 25vh;
+    width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    color: white;
+}
+.banner_search{
+    display: flex;
+    flex-direction: column;
+}
+.banner_search>button{
+    background-color: white;
+    font-weight:900;
+    text-transform: inherit;
+    color: #ff7779;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+
+.banner_info>button{
+    background-color: #ff7779;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.banner_info>button:hover{
+   background-color: white;
+   color:#ff7779;
+}
+.banner_info>h5{
+    margin-top: 10px;
+}
